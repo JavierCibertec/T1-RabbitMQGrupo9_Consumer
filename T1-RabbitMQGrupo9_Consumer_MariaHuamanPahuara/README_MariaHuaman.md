@@ -90,3 +90,5 @@ Evidencia de la prueba en `evidencias/`.
 
 - **Puertos ocupados**: cambiar el `port` en el `application.yml`.
 - **Maven no resuelve dependencias**: revisar internet/proxy y reintentar el reload de Maven.
+
+— Maria Huaman Pahuara
