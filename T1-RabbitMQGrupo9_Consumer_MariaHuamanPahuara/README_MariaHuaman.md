@@ -29,7 +29,7 @@ Versiones exigidas: **Spring Boot 4.1.1 · Spring Cloud 2025.1.3 · Java 25** (y
 
 ## 2. Levantar RabbitMQ
 
-Desde la raíz de este repo:
+Desde esta carpeta (`T1-RabbitMQGrupo9_Consumer_MariaHuamanPahuara/`):
 
 ```bash
 docker compose up -d
