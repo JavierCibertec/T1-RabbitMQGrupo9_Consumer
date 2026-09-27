@@ -1,0 +1,5 @@
+openjdk version "25.0.4.1" 2026-08-18
+Apache Maven 3.9.16 (2bdd9fddda4b155ebf8000e807eb73fd829a51d5)
+T1-FeignGrupo9/pom.xml:        <version>4.1.1</version>
+T1-FeignGrupo9/pom.xml:        <java.version>25</java.version>
+T1-FeignGrupo9/pom.xml:        <spring-cloud.version>2025.1.3</spring-cloud.version>
