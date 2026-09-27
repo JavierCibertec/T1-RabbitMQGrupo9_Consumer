@@ -3,6 +3,10 @@ target/
 *.jar
 *.war
 *.class
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+HELP.md
 
 # IntelliJ IDEA
 .idea/
@@ -11,11 +15,26 @@ target/
 *.ipr
 out/
 
-# Eclipse / VS Code
+# Eclipse / STS
 .classpath
 .project
 .settings/
 .factorypath
+.apt_generated
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VS Code
 .vscode/
 
 # Sistema operativo

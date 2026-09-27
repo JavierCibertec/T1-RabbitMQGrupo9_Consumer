@@ -1,2 +1,4 @@
-# Saltos de línea según el sistema de cada uno (Windows / Linux)
+# Saltos de linea segun el sistema de cada uno (Windows / Linux)
 * text=auto
+/mvnw text eol=lf
+*.cmd text eol=crlf
