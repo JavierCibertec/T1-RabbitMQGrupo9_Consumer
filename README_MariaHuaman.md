@@ -11,7 +11,7 @@ Microservicio consumidor de la parte "Sincronización usando RabbitMQ": escucha 
 
 | Carpeta | Qué es | Puerto |
 |---|---|---|
-| `appGrupo9Consumidor` | Consumidor RabbitMQ (escucha `Grupo9Queue`) | 8083 |
+| `appGrupo9Consumidor_MariaHuaman` | Consumidor RabbitMQ (escucha `Grupo9Queue`) | 8083 |
 
 Nombres RabbitMQ: cola `Grupo9Queue`, exchange `Grupo9Exchange`, routing key `Grupo9Routing`.
 
@@ -41,7 +41,7 @@ Panel web: http://localhost:15672 (guest / guest). Para apagarlo al terminar: `d
 
 ## 3. Importar en IntelliJ
 
-`File → Open…` → carpeta `appGrupo9Consumidor` → `Trust Project`. Esperar a que termine
+`File → Open…` → carpeta `appGrupo9Consumidor_MariaHuaman` → `Trust Project`. Esperar a que termine
 "Importing Maven project" (si no descarga dependencias: botón "Reload All Maven Projects").
 
 Correr `AppGrupo9ConsumidorApplication.java` con el ▶ verde (recomendado, no requiere nada más).
@@ -52,7 +52,7 @@ Se queda escuchando `Grupo9Queue`.
 Por consola (requiere Maven: descárgalo de [maven.apache.org](https://maven.apache.org/download.cgi), agrega su `bin` al PATH y verifica con `mvn -version` en una terminal nueva):
 
 ```powershell
-cd appGrupo9Consumidor
+cd appGrupo9Consumidor_MariaHuaman
 mvn spring-boot:run
 ```
 
@@ -63,7 +63,7 @@ mvn spring-boot:run
 Por consola (requiere Maven: `sudo pacman -S maven` / `sudo apt install maven` / `brew install maven`; verifica con `mvn -version`):
 
 ```bash
-cd appGrupo9Consumidor
+cd appGrupo9Consumidor_MariaHuaman
 mvn spring-boot:run
 ```
 
